@@ -1,0 +1,1 @@
+code "%cd%" --extensions-dir "%cd%\.vscodeprofile\exts" --user-data-dir "%cd%\.vscodeprofile\data"

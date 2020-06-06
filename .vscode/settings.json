@@ -1,0 +1,38 @@
+{
+    "files.exclude": {
+        "**/.vscodeprofile": true,
+        // this excludes the folder
+        // named ".vscodeprofile" from
+        // the explore tree
+        "**/node_modules": true,
+        // this excludes all folders 
+        // named "node_modules" from 
+        // the explore tree
+        "node_modules": true,
+        // this excludes the folder 
+        // only from the root of
+        // your workspace
+        //"**/dist": true
+        // this excludes the folder
+        // named ".dist" from
+        // the explore tree
+    },
+    // BEGIN - eslint and stylelint
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null,
+    // END - eslint and stylelint
+    // BEGIN - JSON
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": false
+        }
+    },
+    // Enable/disable default JSON formatter
+    "json.format.enable": true,
+    // END - JSON
+}

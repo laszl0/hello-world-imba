@@ -1,0 +1,45 @@
+{
+  "name": "hello-world-imba",
+  "version": "1.0.0",
+  "description": "Hello World for Imba",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.production.config.js",
+    "watch": "webpack --watch --config webpack.development.config.js",
+    "start": "webpack-dev-server --open --config webpack.development.config.js"
+  },
+  "keywords": [
+    "hello-world",
+    "imba"
+  ],
+  "author": "laszl0 <hello@laszl0.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "3.5.3",
+    "html-webpack-plugin": "4.3.0",
+    "imba": "1.5.2",
+    "style-loader": "1.2.1",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0",
+    "webpack-merge": "4.2.2",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.1.3",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "prettier": "2.0.5",
+    "stylelint": "13.3.3",
+    "stylelint-config-prettier": "8.0.1",
+    "stylelint-config-standard": "20.0.0",
+    "stylelint-prettier": "1.1.2"
+  },
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}
